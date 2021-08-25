@@ -1,0 +1,206 @@
+/*initiqlisation */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  font-weight: 400;
+  color: rgb(116, 116, 116);
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* header */
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  box-shadow: rgb(211, 207, 201) 0px 1px 3px 0px;
+  overflow: hidden;
+}
+.main-menu {
+  position: relative;
+  float: right;
+  color: rgb(171, 171, 171);
+  display: flex;
+  text-decoration: none;
+  padding: 10px;
+}
+.main-menu a,
+.dropdown {
+  padding: 0px 5px;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.dropdown-content {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  min-width: 220px;
+  margin-left: -100px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+.navbar-element {
+  width: 69%;
+  margin-left: 215px;
+}
+
+/* experience */
+.experience {
+  margin: 2% 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.experience div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience div p {
+  width: 45%;
+  line-height: 1.75;
+  color: rgb(116, 116, 116);
+  text-align: justify;
+}
+
+/* services */
+.services {
+  width: 69%;
+  height: 350px;
+  display: flex;
+  margin: 3.75rem auto 2.5rem;
+}
+.service1 {
+  background: rgb(0, 204, 177);
+  border-radius: 10px;
+  margin: 0px 15px;
+  padding: 22px;
+}
+.service2 {
+  background: rgb(61, 131, 223);
+  border-radius: 10px;
+  margin: 0px 15px;
+  padding: 22px;
+}
+.service3 {
+  background: rgb(27, 39, 52);
+  border-radius: 10px;
+  margin: 0px 15px;
+  padding: 22px;
+}
+.services div h3 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+.services {
+  margin: 3.75rem auto 2.5rem;
+}
+.services .service3 select {
+  padding: 0 2em 0 0;
+  text-transform: none;
+  text-decoration: underline;
+}
+
+/* we are */
+.we-are {
+  width: 69%;
+  margin: 2% 17%;
+  display: flex;
+  justify-content: space-between;
+}
+.we-are h2 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.svg {
+  padding: 5% 0;
+  margin: 0 0 0 5%;
+}
+.svg a:hover {
+}
+
+/* stats */
+.stats {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  padding: 1.875em 0 0.625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+  display: flex;
+}
+.worlds {
+  margin: 2% 20%;
+}
+.logo-coupe {
+  margin: 0%;
+}
+.cadre {
+  margin: 0% 30% 0% 2%;
+  display: flex;
+}
+.worlds h4 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.boites {
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  padding: 15px 10px;
+}
+
+.boite1,
+.boite2,
+.boite3,
+.boite4 {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+
+/* countries */
+.countries {
+  /* boxmodel */
+  margin: 2% 12%;
+  /* flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.country {
+  margin-bottom: 5%;
+}
+
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 2%;
+}
